@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55ACAB9B1B47A7D400BDCE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACAB9A1B47A7D400BDCE9E /* AppDelegate.swift */; };
+		55ACAB9D1B47A7D400BDCE9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACAB9C1B47A7D400BDCE9E /* ViewController.swift */; };
+		55ACABA01B47A7D400BDCE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55ACAB9E1B47A7D400BDCE9E /* Main.storyboard */; };
+		55ACABA21B47A7D400BDCE9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55ACABA11B47A7D400BDCE9E /* Images.xcassets */; };
+		55ACABA51B47A7D400BDCE9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55ACABA31B47A7D400BDCE9E /* LaunchScreen.xib */; };
+		55ACABB11B47A7D400BDCE9E /* DKOutlineButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACABB01B47A7D400BDCE9E /* DKOutlineButtonTests.swift */; };
+		55ACABBB1B47A7E500BDCE9E /* DKOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACABBA1B47A7E500BDCE9E /* DKOutlineButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55ACABAB1B47A7D400BDCE9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55ACAB8D1B47A7D400BDCE9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55ACAB941B47A7D400BDCE9E;
+			remoteInfo = DKOutlineButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55ACAB951B47A7D400BDCE9E /* DKOutlineButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKOutlineButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ACAB991B47A7D400BDCE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55ACAB9A1B47A7D400BDCE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55ACAB9C1B47A7D400BDCE9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55ACAB9F1B47A7D400BDCE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55ACABA11B47A7D400BDCE9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55ACABA41B47A7D400BDCE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55ACABAA1B47A7D400BDCE9E /* DKOutlineButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKOutlineButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ACABAF1B47A7D400BDCE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55ACABB01B47A7D400BDCE9E /* DKOutlineButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKOutlineButtonTests.swift; sourceTree = "<group>"; };
+		55ACABBA1B47A7E500BDCE9E /* DKOutlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKOutlineButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55ACAB921B47A7D400BDCE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ACABA71B47A7D400BDCE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55ACAB8C1B47A7D400BDCE9E = {
+			isa = PBXGroup;
+			children = (
+				55ACABBA1B47A7E500BDCE9E /* DKOutlineButton.swift */,
+				55ACAB971B47A7D400BDCE9E /* DKOutlineButton */,
+				55ACABAD1B47A7D400BDCE9E /* DKOutlineButtonTests */,
+				55ACAB961B47A7D400BDCE9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55ACAB961B47A7D400BDCE9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55ACAB951B47A7D400BDCE9E /* DKOutlineButton.app */,
+				55ACABAA1B47A7D400BDCE9E /* DKOutlineButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55ACAB971B47A7D400BDCE9E /* DKOutlineButton */ = {
+			isa = PBXGroup;
+			children = (
+				55ACAB9A1B47A7D400BDCE9E /* AppDelegate.swift */,
+				55ACAB9C1B47A7D400BDCE9E /* ViewController.swift */,
+				55ACAB9E1B47A7D400BDCE9E /* Main.storyboard */,
+				55ACABA11B47A7D400BDCE9E /* Images.xcassets */,
+				55ACABA31B47A7D400BDCE9E /* LaunchScreen.xib */,
+				55ACAB981B47A7D400BDCE9E /* Supporting Files */,
+			);
+			path = DKOutlineButton;
+			sourceTree = "<group>";
+		};
+		55ACAB981B47A7D400BDCE9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55ACAB991B47A7D400BDCE9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55ACABAD1B47A7D400BDCE9E /* DKOutlineButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				55ACABB01B47A7D400BDCE9E /* DKOutlineButtonTests.swift */,
+				55ACABAE1B47A7D400BDCE9E /* Supporting Files */,
+			);
+			path = DKOutlineButtonTests;
+			sourceTree = "<group>";
+		};
+		55ACABAE1B47A7D400BDCE9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55ACABAF1B47A7D400BDCE9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55ACAB941B47A7D400BDCE9E /* DKOutlineButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ACABB41B47A7D400BDCE9E /* Build configuration list for PBXNativeTarget "DKOutlineButton" */;
+			buildPhases = (
+				55ACAB911B47A7D400BDCE9E /* Sources */,
+				55ACAB921B47A7D400BDCE9E /* Frameworks */,
+				55ACAB931B47A7D400BDCE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKOutlineButton;
+			productName = DKOutlineButton;
+			productReference = 55ACAB951B47A7D400BDCE9E /* DKOutlineButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55ACABA91B47A7D400BDCE9E /* DKOutlineButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ACABB71B47A7D400BDCE9E /* Build configuration list for PBXNativeTarget "DKOutlineButtonTests" */;
+			buildPhases = (
+				55ACABA61B47A7D400BDCE9E /* Sources */,
+				55ACABA71B47A7D400BDCE9E /* Frameworks */,
+				55ACABA81B47A7D400BDCE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55ACABAC1B47A7D400BDCE9E /* PBXTargetDependency */,
+			);
+			name = DKOutlineButtonTests;
+			productName = DKOutlineButtonTests;
+			productReference = 55ACABAA1B47A7D400BDCE9E /* DKOutlineButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55ACAB8D1B47A7D400BDCE9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Oak Snow Consulting";
+				TargetAttributes = {
+					55ACAB941B47A7D400BDCE9E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					55ACABA91B47A7D400BDCE9E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 55ACAB941B47A7D400BDCE9E;
+					};
+				};
+			};
+			buildConfigurationList = 55ACAB901B47A7D400BDCE9E /* Build configuration list for PBXProject "DKOutlineButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55ACAB8C1B47A7D400BDCE9E;
+			productRefGroup = 55ACAB961B47A7D400BDCE9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55ACAB941B47A7D400BDCE9E /* DKOutlineButton */,
+				55ACABA91B47A7D400BDCE9E /* DKOutlineButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55ACAB931B47A7D400BDCE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ACABA01B47A7D400BDCE9E /* Main.storyboard in Resources */,
+				55ACABA51B47A7D400BDCE9E /* LaunchScreen.xib in Resources */,
+				55ACABA21B47A7D400BDCE9E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ACABA81B47A7D400BDCE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55ACAB911B47A7D400BDCE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ACABBB1B47A7E500BDCE9E /* DKOutlineButton.swift in Sources */,
+				55ACAB9D1B47A7D400BDCE9E /* ViewController.swift in Sources */,
+				55ACAB9B1B47A7D400BDCE9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ACABA61B47A7D400BDCE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ACABB11B47A7D400BDCE9E /* DKOutlineButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55ACABAC1B47A7D400BDCE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55ACAB941B47A7D400BDCE9E /* DKOutlineButton */;
+			targetProxy = 55ACABAB1B47A7D400BDCE9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55ACAB9E1B47A7D400BDCE9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55ACAB9F1B47A7D400BDCE9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55ACABA31B47A7D400BDCE9E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55ACABA41B47A7D400BDCE9E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55ACABB21B47A7D400BDCE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55ACABB31B47A7D400BDCE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55ACABB51B47A7D400BDCE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKOutlineButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55ACABB61B47A7D400BDCE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKOutlineButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55ACABB81B47A7D400BDCE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKOutlineButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKOutlineButton.app/DKOutlineButton";
+			};
+			name = Debug;
+		};
+		55ACABB91B47A7D400BDCE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKOutlineButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKOutlineButton.app/DKOutlineButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55ACAB901B47A7D400BDCE9E /* Build configuration list for PBXProject "DKOutlineButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ACABB21B47A7D400BDCE9E /* Debug */,
+				55ACABB31B47A7D400BDCE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ACABB41B47A7D400BDCE9E /* Build configuration list for PBXNativeTarget "DKOutlineButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ACABB51B47A7D400BDCE9E /* Debug */,
+				55ACABB61B47A7D400BDCE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55ACABB71B47A7D400BDCE9E /* Build configuration list for PBXNativeTarget "DKOutlineButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ACABB81B47A7D400BDCE9E /* Debug */,
+				55ACABB91B47A7D400BDCE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55ACAB8D1B47A7D400BDCE9E /* Project object */;
+}
