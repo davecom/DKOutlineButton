@@ -11,9 +11,9 @@ import UIKit
 @IBDesignable
 class DKOutlineButton: UIButton {
     
-    @IBInspectable public var borderColor: UIColor = UIColor.greenColor() {
+    @IBInspectable public var borderColor: UIColor = UIColor.green {
         didSet {
-            self.layer.borderColor = borderColor.CGColor
+            self.layer.borderColor = borderColor.cgColor
         }
     }
     @IBInspectable public var borderWidth: CGFloat = 2.0 {
